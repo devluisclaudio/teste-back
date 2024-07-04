@@ -16,7 +16,7 @@ Caso você deseja executar o projeto na sua máquina local, basta seguir os pass
 ## Clone o repositório... 🌀
 
 ```bash
-> git clone https://github.com/seuusuario/seuprojeto.git
+> git clone https://github.com/devluisclaudio/teste-back.git
 ```
 
 * ***Necessário ter o Docker / Docker Compose instalados na máquina***
