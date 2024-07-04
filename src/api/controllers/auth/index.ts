@@ -33,3 +33,8 @@ export const register = async (payload: CreateUserDTO): Promise<JWTResponse> => 
       
     return {user , token}
 }
+
+export const me = async (id: number): Promise<UserOuput> => {
+    const user = await service.getById(id)
+    return user
+}
