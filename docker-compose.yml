@@ -1,0 +1,13 @@
+services:
+  db:
+    image: mariadb:10
+    container_name: db-teste
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: teste_db
+      MARIADB_USERNAME: root
+      MARIADB_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./docker/db:/var/lib/mysql
